@@ -1,0 +1,4 @@
+{
+    "maxRecruits" : 3,
+    "apiBaseUrl": "http://localhost:5000" 
+}
