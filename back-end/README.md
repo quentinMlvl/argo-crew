@@ -6,7 +6,7 @@
 npm install
 ```
 ## ⚠️ Warning ⚠️
-Don't forget to download the database : [the sql export file]()
+Don't forget to download the database : [the sql export file](https://github.com/quentinMlvl/argo-crew/blob/master/back-end/config/sailors.sql)
 
 ### Run the API
 ```
