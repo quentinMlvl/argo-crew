@@ -1,4 +1,5 @@
 <template>
+<div>
   <header>
     <nav>
       <div>
@@ -18,6 +19,7 @@
   <main>
     <router-view/>
   </main>
+</div>
 </template>
 
 <script>
@@ -39,13 +41,11 @@ export default {
 
     async getSailors(){
       let sailors = await getSailors();
-      console.log(sailors);
       this.setSailors(sailors);
     }
   },
   async mounted(){
     this.emitter.on("load-sailors", async () => {
-      console.log("LOAD"); 
       await getSailors();
 
     })
@@ -61,9 +61,6 @@ html, body
 
 main
   padding: 0 20%
-
-#app
-  font-family: Arial, Helvetica, sans-serif
 
 header
   background-color : #9B4DCa 
