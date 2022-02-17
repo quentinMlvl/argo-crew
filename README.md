@@ -1,24 +1,5 @@
-# argo-crew
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# argo-crew 
+This project is composed in 3 parts :
+- A front-end interface in VueJS,
+- A SQL database,
+- And a API in Node.js in the back-office so that the interface can communicate with the database

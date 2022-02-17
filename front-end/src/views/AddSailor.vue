@@ -22,7 +22,7 @@
             <div>
                 <label for="swim_lvl">Niveau de nage : </label>
                 <select  name="swim_lvl" id="lvl" v-model="swim_lvl" >
-                    <option valeur="0">Aucun</option>
+                    <option valeur="0">Nul</option>
                     <option valeur="1">Débutant</option>
                     <option valeur="2">Intermediaire</option>
                     <option valeur="3">Avancé</option>
@@ -31,7 +31,7 @@
             </div><div>
                 <label for="fight_lvl">Niveau en combat : </label>
                 <select  name="fight_lvl" id="fight_lvl" v-model="fight_lvl" >
-                    <option valeur="0">Aucun</option>
+                    <option valeur="0">Nul</option>
                     <option valeur="1">Débutant</option>
                     <option valeur="2">Intermediaire</option>
                     <option valeur="3">Avancé</option>
@@ -41,7 +41,7 @@
             <div>
                 <label for="lead_lvl">Niveau de Leadership : </label>
                 <select  name="lead_lvl" id="lead_lvl" v-model="lead_lvl" >
-                    <option valeur="0">Aucun</option>
+                    <option valeur="0">Nul</option>
                     <option valeur="1">Débutant</option>
                     <option valeur="2">Intermediaire</option>
                     <option valeur="3">Avancé</option>
